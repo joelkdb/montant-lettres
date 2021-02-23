@@ -29,7 +29,8 @@ public class Main {
             new BigDecimal("103456789"), new BigDecimal("100456789"), new BigDecimal("123406700"),
             new BigDecimal("123406000"), new BigDecimal("123000000"), new BigDecimal("12345000000"),
             new BigDecimal("17345000010"), new BigDecimal("2940992.00"), null, new BigDecimal("0000000")};
-        ml.setMontant(montants[montants.length - 1]);
+        ml.setMontant(montants[0]);
+//        System.out.println("1 => " + ml.getNotDecimalAmountLetter());
     }
 
 }

@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<actions>
+    <action>
+        <actionName>CUSTOM-GitFlow - Feature start</actionName>
+        <displayName>GitFlow - Feature start</displayName>
+        <goals>
+            <goal>gitflow:feature-start</goal>
+        </goals>
+    </action>
+    <action>
+        <actionName>CUSTOM-GitFlow - Feature finish</actionName>
+        <displayName>GitFlow - Feature finish</displayName>
+        <goals>
+            <goal>gitflow:feature-finish</goal>
+        </goals>
+    </action>
+    <action>
+        <actionName>CUSTOM-GitFlow - Hotfix start</actionName>
+        <displayName>GitFlow - Hotfix start</displayName>
+        <goals>
+            <goal>gitflow:hotfix-start</goal>
+        </goals>
+    </action>
+    <action>
+        <actionName>CUSTOM-GitFlow - Hotfix finish</actionName>
+        <displayName>GitFlow - Hotfix finish</displayName>
+        <goals>
+            <goal>gitflow:hotfix-finish</goal>
+        </goals>
+    </action>
+    <action>
+        <actionName>CUSTOM-GitFlow - Release start</actionName>
+        <displayName>GitFlow - Release start</displayName>
+        <goals>
+            <goal>gitflow:release-start</goal>
+        </goals>
+    </action>
+    <action>
+        <actionName>CUSTOM-GitFlow - Release finish</actionName>
+        <displayName>GitFlow - Release finish</displayName>
+        <goals>
+            <goal>gitflow:release-finish</goal>
+        </goals>
+    </action>
+    <action>
+        <actionName>CUSTOM-GitFlow - Release</actionName>
+        <displayName>GitFlow - Release</displayName>
+        <goals>
+            <goal>gitflow:release</goal>
+        </goals>
+    </action>
+    <action>
+        <actionName>CUSTOM-GitFlow - Support start</actionName>
+        <displayName>GitFlow - Support start</displayName>
+        <goals>
+            <goal>gitflow:support-start</goal>
+        </goals>
+    </action>
+    <action>
+        <actionName>CUSTOM-GitFlow - Help</actionName>
+        <displayName>GitFlow - Help</displayName>
+        <goals>
+            <goal>gitflow:help</goal>
+        </goals>
+    </action>
+</actions>
