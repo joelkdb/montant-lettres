@@ -174,9 +174,9 @@ public class MontantLettre implements Serializable {
             String jetonLettres = "";
             if (!cent.equals("0")) {
                 if ((!cent.equals("1"))) {
-                    jetonLettres = (String) unites.get(cent) + " Cent";
+                    jetonLettres = (String) unites.get(cent) + " Cent ";
                 } else {
-                    jetonLettres = "Cent";
+                    jetonLettres = "Cent ";
                 }
             }
             int unitAsInt = Integer.parseInt(unit);
